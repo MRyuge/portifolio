@@ -1,0 +1,35 @@
+unit FuncionarioSubclasses;
+
+// demonstrar o Princípio da Substituição de Liskov,
+// criando subclasses de Funcionario que podem ser substituídas sem afetar o programa.
+
+interface
+
+uses
+  Funcionario;
+
+type
+  TGerente = class(TFuncionario)
+  public
+    function ObterCargo: string;
+  end;
+
+  TProgramador = class(TFuncionario)
+  public
+    function ObterLinguagem: string;
+  end;
+
+implementation
+
+function TGerente.ObterCargo: string;
+begin
+  Result := 'Gerente';
+end;
+
+function TProgramador.ObterLinguagem: string;
+begin
+  Result := 'Delphi'; // Pode ser qualquer linguagem
+end;
+
+end.
+

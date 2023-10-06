@@ -1,0 +1,26 @@
+unit CalculadoraSalario;
+
+// Classe que estende essa funcionalidade para calcular o salário de um funcionário.
+// Isso demonstra o Princípio do Aberto/Fechado (OCP) permitindo a extensão sem modificar a classe base
+
+interface
+
+uses
+  Funcionario;
+
+type
+  TCalculadoraSalario = class
+  public
+    function CalcularSalario(Funcionario: TFuncionario): Currency;
+  end;
+
+implementation
+
+function TCalculadoraSalario.CalcularSalario(Funcionario: TFuncionario): Currency;
+begin
+  // Lógica para calcular o salário com base no funcionário
+  // Aqui você pode adicionar regras específicas de cálculo sem modificar a classe Funcionario
+end;
+
+end.
+

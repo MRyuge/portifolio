@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/05/16 20:33:40.000.364,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2020/07/03 09:11:40.000.304,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/09/03 11:48:06.000.440,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/09/17 08:02:15.000.959,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/09/18 08:30:03.000.554,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/09/18 08:40:21.000.500,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/09/25 09:26:50.000.770,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/09/27 20:23:41.000.206,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/09/21 15:39:27.000.596,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/09/21 15:44:09.000.583,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/09/21 15:46:14.000.484,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Funcionario.pas=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/09/21 15:47:30.000.754,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/09/21 15:48:13.000.107,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\CalculadoraSalario.pas=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/09/21 15:49:26.000.089,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/09/21 15:49:51.000.922,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\FuncionarioSubclasses.pas=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/09/21 15:53:12.000.689,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Unit6.dfm=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2023/09/21 15:53:12.000.689,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Unit6.pas=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/09/21 15:53:15.000.469,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Project5.dproj=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\Project5.dproj</Transaction>
+    <Transaction>2023/09/21 15:59:00.000.428,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Unit1.pas</Transaction>
+    <Transaction>2023/09/21 15:59:31.000.928,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Interfaces.pas=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Unit1.pas</Transaction>
+    <Transaction>2023/09/21 16:03:06.000.072,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Unit1.pas</Transaction>
+    <Transaction>2023/09/21 16:03:22.000.132,C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\GerenciadorFuncionarios.pas=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Unit1.pas</Transaction>
+    <Transaction>2023/10/03 15:20:01.024,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Forms\Unit6.pas</Transaction>
+    <Transaction>2023/10/03 15:20:33.057,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Source\Units\CalculadoraSalario.pas</Transaction>
+    <Transaction>2023/10/03 15:20:33.088,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Source\Units\Funcionario.pas</Transaction>
+    <Transaction>2023/10/03 15:20:33.103,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Source\Units\FuncionarioSubclasses.pas</Transaction>
+    <Transaction>2023/10/03 15:20:33.135,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Source\Units\GerenciadorFuncionarios.pas</Transaction>
+    <Transaction>2023/10/03 15:20:33.166,=C:\Users\Ryuge\Documents\Embarcadero\Studio\Projects\SOLID\Source\Units\Interfaces.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

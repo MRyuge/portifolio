@@ -1,0 +1,57 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
+  Vcl.ComCtrls, Vcl.StdCtrls, Vcl.ExtCtrls,Unit3, System.ImageList, Vcl.ImgList,
+  unit1,unit4;
+
+type
+  TForm2 = class(TForm)
+    Image1: TImage;
+    Button1: TButton;
+    Image2: TImage;
+    Button2: TButton;
+    ProgressBar1: TProgressBar;
+    ProgressBar2: TProgressBar;
+    ImageList1: TImageList;
+    Button3: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+// ImageList1.GetBitmap(0,Image1.Picture.Bitmap);
+ PreLoadingThread.Create(False,image1,ImageList1);
+
+end;
+
+procedure TForm2.Button2Click(Sender: TObject);
+begin
+TestThread.Create(False,ProgressBar2);
+end;
+
+procedure TForm2.Button3Click(Sender: TObject);
+var
+  frm: Tform1;
+begin
+    frm:= Tform1.Create(nil);
+    frm.Show;
+end;
+
+end.

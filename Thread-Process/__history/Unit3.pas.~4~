@@ -1,0 +1,64 @@
+unit Unit3;
+
+interface
+
+uses
+  Classes, ComCtrls;
+
+type
+  TestThread = class(TThread)
+  private
+    FProgressBar: TProgressBar;
+    Percent : Integer;
+    procedure UpdateProgress;
+  protected
+    procedure Execute; override;
+  public
+    constructor Create(CreateSuspended : Boolean; ProgressBar : TProgressBar); reintroduce;
+  end;
+
+implementation
+
+
+{ TestThread }
+
+constructor TestThread.Create(CreateSuspended: Boolean;
+  ProgressBar: TProgressBar);
+begin
+  FProgressBar := ProgressBar;
+  inherited Create(CreateSuspended);
+end;
+
+procedure TestThread.Execute;
+var
+  i : Integer;
+  j : Double;
+begin
+//  for i := 1 to 1000000 do
+  i:= 0;
+  while not Terminated do
+  begin
+    if i >= 100 then i:= 0;
+
+//    j := sin(i/10000)+cos(i/10000);
+//    if i mod 10000 = 0 then
+//    begin
+//      Percent := i div 10000;
+//      Synchronize(UpdateProgress);
+//    end;
+    Percent := i;
+    Synchronize(UpdateProgress);
+
+    if Terminated then
+      exit;
+    inc(i);
+  end;
+end;
+
+procedure TestThread.UpdateProgress;
+begin
+  FProgressBar.Position := Percent;
+end;
+
+end.
+
